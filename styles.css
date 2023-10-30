@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1rem;
+    background-color: aquamarine;
 }
 .logo-container{
     display: flex;
@@ -38,11 +38,14 @@
     gap: 2rem ; 
     padding: 0 4rem ;
     color: black;
+   
 }
 .nav-items div{
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+    border:1px solid black;
+    background-color: rgb(202, 223, 113);
  
 }
 .nav-items div a{
@@ -155,8 +158,13 @@ project-container{
    color: white;   
    right: -30px;
    top: -35px ;
+   display: none;
 
 }
+.project-card:hover .project-number{
+    display: block;
+}
+
 .project-content{
     position: absolute;
     display: flex;
@@ -167,15 +175,39 @@ project-container{
     gap: 1rem ;
     transition: all 1s;
     left: 10%;
-    top: 50%;
-    
+  
 }
+.skills-container{ 
+width: 60%;
+display: flex;
+gap : 10px ; 
+flex-wrap: wrap;
+margin-top: 12%;
 
 
+}
+.project-heading{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 3rem ;
 
-
-
-
+}
+.project-subheading{
+    width: 72% ;
+    font-style: italic;
+    font-size: 21px;
+}
+.btn{
+  height: 40px;
+  width: 150px;
+  background-color: bisque;
+  font-weight: bold;
+  
+  
+}
+.btn:hover{
+        cursor:pointer;
+}
 
 
 
