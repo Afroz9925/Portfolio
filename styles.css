@@ -241,6 +241,9 @@ margin-top: 12%;
      height : 100px 
       
  }
+ .project-skills{ 
+    width : 3%  ; 
+}
   .project-card{ 
     background-size: cover;
     background-position: center;
