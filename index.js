@@ -1,0 +1,1 @@
+alert("Please open Site on desktop mode") ; 

@@ -273,6 +273,65 @@ margin-top: 12%;
      .project-card:hover.project-content{ 
         scale: 0.55 ;
      }
+  
+ 
  }
+.tech-stack{
+     position: relative;
+     display: flex;
+     padding: 5rem ;
+     margin: 10rem auto;
+     gap: 30px ; 
+}
+.skills-container-left { 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.skills-container-right{ 
+    display : flex ; 
+    flex-wrap : wrap ; 
+     width: 50% ; 
+     position : relative ; 
 
+}
+.skill-faded-text{ 
+    position: absolute;
+    font-size: 10em ;
 
+     font-style: bold;
+     color: gray ; 
+     bottom: -2.5%;
+    right: -1% ; 
+    overflow-y: hidden;
+     user-select: none;
+
+}
+.skills-logo{ 
+    width: 90px;
+    transition: all 0.5s ;
+}
+.skills-logo:hover{ 
+    transform: scale(1.2);
+}
+.skill-heading{
+     font-weight: bold;
+     font-size: 50px;
+     color: rgb(236, 201, 134);
+     line-height: 50px;
+     
+
+}
+.caps{ 
+    font-size: 90px;
+}
+.sub-heading{ 
+    margin-top: 1rem;
+    width: 85%;
+    text-align: justify;
+
+}
+
+.sub-heading p{ 
+
+}
