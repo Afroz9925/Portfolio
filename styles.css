@@ -216,7 +216,7 @@ margin-top: 12%;
 }
 
 .project-skills{ 
-    width : 24%  ; 
+    width : 12%  ; 
 }
 .project-card:hover .project-content{ 
     transform: scale(1.1)
