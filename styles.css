@@ -202,6 +202,7 @@ margin-top: 12%;
     width: 72% ;
     font-style: italic;
     font-size: 21px;
+    color: red;
 }
 .btn{
   height: 40px;
@@ -221,7 +222,7 @@ margin-top: 12%;
     transform: scale(1.1)
 }
 
-@media (max-width: 1300px) { 
+@media (min-width: 800x) { 
    .page-header{
      padding-top: 30px;
      text-align: center;
