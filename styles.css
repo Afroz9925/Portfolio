@@ -379,12 +379,12 @@ footer{
 }
 .fuuter{
      width: auto;
-     height: 200px;
+     height: 150px;
      padding: 0 2rem ;
      display : flex ; 
      gap: 1rem ; 
      padding: 1.2rem ; 
-     justify-content : space-between ; 
+     
      align-items: center;
 
      
@@ -395,6 +395,9 @@ footer{
     bottom: 0 ; color: #535c87;
     user-select: none;
     font-size: 4em;
+}
+.iicon { 
+   align-self: center;
 }
 
 
