@@ -356,10 +356,21 @@ margin-top: 12%;
 .formfield{ 
     border: 1px solid black;
     width:  60%;
-    height: 30%;
-       
+    padding: 0 2rem;
+    height: auto;
+    padding-top: 2;
+    margin-top: 20px;
 }
-form{
-     gap: 30px ; 
+#ht{ 
+    height: 30px;
+
 }
+#submit-btn{
+    border: none;
+    font-size: 1.4rem;
+    margin: 1rem 0 ; 
+}
+
+
+
 
