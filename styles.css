@@ -373,13 +373,20 @@ margin-top: 12%;
 footer{
      position: relative;
      margin-top: -1px;
+     padding: 1rem;
+
     
 }
 .fuuter{
-     background-color: #343d68;
      width: auto;
      height: 200px;
      padding: 0 2rem ;
+     display : flex ; 
+     gap: 1rem ; 
+     padding: 1.2rem ; 
+     justify-content : space-between ; 
+     align-items: center;
+
      
 }
 .footer-faded-text{ 
@@ -389,5 +396,7 @@ footer{
     user-select: none;
     font-size: 4em;
 }
+
+
 
 
