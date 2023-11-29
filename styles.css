@@ -229,6 +229,7 @@ margin-top: 12%;
      font-size: 40px;
 
    }
+   
 
 .project-container{ 
     padding: 5px;
@@ -262,7 +263,7 @@ margin-top: 12%;
    }
    .project-subheading{ 
     width: 100%;
-
+   
    }
    .skills-container{
      width: 100% ; 
@@ -332,6 +333,33 @@ margin-top: 12%;
 
 }
 
-.sub-heading p{ 
+.contactus-form{
+     width : 100% ; 
+      background-color: gray;
+}
+.contactus-heading{ 
+    font-size: 5em;
+    color: orangered;
+    padding-top: 2rem;
 
 }
+.contactus-subheading{
+     font-size: 3rem;
+     color: #343d68aa;
+     text-transform: capitalize;
+}
+.contactus-form{ 
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formfield{ 
+    border: 1px solid black;
+    width:  60%;
+    height: 30%;
+       
+}
+form{
+     gap: 30px ; 
+}
+

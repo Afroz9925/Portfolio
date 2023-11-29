@@ -1,1 +1,1 @@
-alert("Please open Site on desktop mode") ; 
+// alert("Please open Site on desktop mode") ; 
